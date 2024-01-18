@@ -1,6 +1,6 @@
 const express = require("express");
 const { v4: uuidv4 } = require("uuid");
-const jsondb = require("./jsondb.init");
+const jsondb = require("../config/jsondb.init");
 
 const createStudent = (req, res) => {
   const uuid = uuidv4();
